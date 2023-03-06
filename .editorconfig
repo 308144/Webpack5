@@ -1,0 +1,13 @@
+root=true# 控制配置文件 .editorconfig 是否生效的字段
+
+
+[**]#匹配所有文件
+indent_style = space#缩进的按键
+indent_size = 2#缩进的大小
+charset = utf-8#设置的字符集
+trim_trailing_whitespace = false#是否去掉一行前后的空格
+insert_final_newline = true#都是以左后一行为空白行结尾的
+end_of_line = lf
+
+
+[** .md]# 匹配md文件
